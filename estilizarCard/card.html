@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        :root{
+            --card-backgImage-color: linear-gradient(rgb(102, 111, 243), #072255);
+            --card-titulo-color: #aad6fa;
+            --card-btn-color:#0000ff;
+            --card-btn-border-color:#0000ff;
+
+            --card-height: 50vh;
+            --card-width: calc(var(--card-height) / 1.3);
+
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            min-height: 100vh;
+            background: #2040b1;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            font: 80% sans-serif; 
+        }
+
+        .caixaCard{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 40px 10px 120px 10px;
+            
+        }
+
+        .card{
+            width: var(--card-width);
+            height: var(--card-height);
+            background-image: var(--card-backgImage-color);
+            border: 3px solid #3c3c3c;            
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 20px;
+            margin: 6px;
+            
+            
+        }
+
+        .cardTitulo{
+            color:var(--card-titulo-color);
+            /* font-size: calc(1.5em + 1vw); */
+            margin-top: 6px;
+        }
+
+        .cardImagem{
+            width: 100%;
+            padding-left: 8px;
+            padding-right: 8px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+
+        .card:hover{
+            transform: scale(1.1) ;
+        }
+
+        .card:hover .btnSaibaMais{
+            opacity: 1;            
+            transition: opacity 1s;
+        }
+
+        .btnSaibaMais{
+            opacity: 0;            
+            background: transparent;
+            border: 2px solid var(--card-btn-border-color);
+            color: var(--card-btn-color);
+            padding: 6px 12px;   
+            /* font-size: calc(0.5em + 1vw);         */
+            margin-bottom: 4px;
+            cursor: pointer;
+            transition: all 0.5s ease-in-out;
+        }
+
+        .btnSaibaMais:hover{
+            box-shadow: 0 0 15px var(--card-btn-border-color), inset 0 0 15px var(--card-btn-border-color);
+            text-shadow:0 0 15px var(--card-btn-border-color) ;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="caixaCard">
+        <div class="card">
+            <h1 class="cardTitulo">2034513637</h1>
+            <img class="cardImagem" src="7.jpg" alt="imagem" >
+            <button class="btnSaibaMais">SAIBA MAIS</button>
+        </div>
+        <div class="card">
+            <h1 class="cardTitulo">2034513637</h1>
+            <img class="cardImagem" src="7.jpg" alt="imagem" >
+            <button class="btnSaibaMais">SAIBA MAIS</button>
+        </div>        <div class="card">
+            <h1 class="cardTitulo">2034513637</h1>
+            <img class="cardImagem" src="7.jpg" alt="imagem" >
+            <button class="btnSaibaMais">SAIBA MAIS</button>
+        </div>        <div class="card">
+            <h1 class="cardTitulo">2034513637</h1>
+            <img class="cardImagem" src="7.jpg" alt="imagem" >
+            <button class="btnSaibaMais">SAIBA MAIS</button>
+        </div>        <div class="card">
+            <h1 class="cardTitulo">2034513637</h1>
+            <img class="cardImagem" src="7.jpg" alt="imagem" >
+            <button class="btnSaibaMais">SAIBA MAIS</button>
+        </div>        <div class="card">
+            <h1 class="cardTitulo">2034513637</h1>
+            <img class="cardImagem" src="7.jpg" alt="imagem" >
+            <button class="btnSaibaMais">SAIBA MAIS</button>
+        </div>        <div class="card">
+            <h1 class="cardTitulo">2034513637</h1>
+            <img class="cardImagem" src="7.jpg" alt="imagem" >
+            <button class="btnSaibaMais">SAIBA MAIS</button>
+        </div>        <div class="card">
+            <h1 class="cardTitulo">2034513637</h1>
+            <img class="cardImagem" src="7.jpg" alt="imagem" >
+            <button class="btnSaibaMais">SAIBA MAIS</button>
+        </div>        <div class="card">
+            <h1 class="cardTitulo">2034513637</h1>
+            <img class="cardImagem" src="7.jpg" alt="imagem" >
+            <button class="btnSaibaMais">SAIBA MAIS</button>
+        </div>        <div class="card">
+            <h1 class="cardTitulo">2034513637</h1>
+            <img class="cardImagem" src="7.jpg" alt="imagem" >
+            <button class="btnSaibaMais">SAIBA MAIS</button>
+        </div>        <div class="card">
+            <h1 class="cardTitulo">2034513637</h1>
+            <img class="cardImagem" src="7.jpg" alt="imagem" >
+            <button class="btnSaibaMais">SAIBA MAIS</button>
+        </div>        <div class="card">
+            <h1 class="cardTitulo">2034513637</h1>
+            <img class="cardImagem" src="7.jpg" alt="imagem" >
+            <button class="btnSaibaMais">SAIBA MAIS</button>
+        </div>
+        <div class="card">
+            <h1 class="cardTitulo">2034513637</h1>
+            <img class="cardImagem" src="7.jpg" alt="imagem" >
+            <button class="btnSaibaMais">SAIBA MAIS</button>
+        </div>        <div class="card">
+            <h1 class="cardTitulo">2034513637</h1>
+            <img class="cardImagem" src="7.jpg" alt="imagem" >
+            <button class="btnSaibaMais">SAIBA MAIS</button>
+        </div>
+    </div>
+    
+</body>
+</html>
